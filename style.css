@@ -60,9 +60,12 @@ img.birthday {
 .text {
   padding: 1em;
   text-align: left;
-  width: 90%; /* Adjusted width */
-  font-size: 16px; /* Adjusted font size */
+  width: 90%;
+  font-size: 16px;
+  overflow-y: auto; /* Enable vertical scrolling */
+  max-height: calc(100vh - 300px); /* Set maximum height to ensure it fits within the viewport */
 }
+
 .text h1{
   font-family:cursive;
   font-size: 40px;
