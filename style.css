@@ -33,11 +33,11 @@ body {
 @media only screen and (min-width: 1000px) {
   .card {
     flex-direction: row-reverse;
-    height: 80vh;
+    height: 80vh; 
   }
   .card img.birthday {
     width: 40%;
-    max-width: 40vw;
+    max-width: 40vw; 
     max-height: unset;
     border-radius: 5vw; 
   }
@@ -50,14 +50,14 @@ body {
   }
   .card img.birthday {
     width: 100%;
-    max-width: 80vw;
+    max-width: 80vw; 
     max-height: unset;
   }
 }
 
 img.birthday {
   max-height: 40vh;
-  border-radius: 5vw;
+  border-radius: 5vw; 
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
@@ -72,5 +72,5 @@ img.birthday {
   font-size: 5vw;
 }
 .space {
-  height: 10vh;
+  height: 10vh; 
 }
