@@ -15,10 +15,10 @@ body {
 
 .card {
   background: #12192c;
-  border-radius: 5vw; /* Adjusted for better responsiveness */
-  height: 85vh;
-  width: 80vw;
-  max-width: 900px; /* Added max-width for better responsiveness */
+  border-radius: 30px;
+  height: 70vh; /* Adjusted height for better fit */
+  width: 70vw; /* Adjusted width for better fit */
+  max-width: 1200px; /* Added max-width for better responsiveness */
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   text-align: center;
   display: flex;
@@ -30,62 +30,38 @@ body {
   color: #DCE35B;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1600px) {
   .card {
     flex-direction: row-reverse;
-    height: 80vh; /* Adjusted height for better responsiveness */
+    height: 60vh; /* Adjusted height for better responsiveness */
   }
   .card img.birthday {
-    width: 40%;
-    max-width: 40vw; /* Adjusted max-width for better responsiveness */
+    width: 30%; /* Adjusted width for better responsiveness */
+    max-width: 600px; /* Adjusted max-width for better responsiveness */
     max-height: unset;
-    border-radius: 5vw; /* Adjusted for better responsiveness */
-  }
-}
-
-@media only screen and (max-height: 640px) {
-  .card {
-    flex-direction: row-reverse;
-    height: 80vh; /* Adjusted height for better responsiveness */
-  }
-  .card img.birthday {
-    width: 100%;
-    max-width: 80vw; /* Adjusted max-width for better responsiveness */
-    max-height: unset;
+    border-radius: 30px;
   }
 }
 
 img.birthday {
-  max-height: 40vh;
-  border-radius: 5vw; /* Adjusted for better responsiveness */
+  max-height: 30vh; /* Adjusted height for better responsiveness */
+  border-radius: 30px; /* Adjusted for better responsiveness */
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .text {
-  padding: 3vw; /* Adjusted padding for better responsiveness */
+  padding: 2em; /* Adjusted padding for better fit */
   text-align: center; /* Center align the text */
   max-width: 800px; /* Limit the maximum width of the text */
   margin: auto; /* Center the text horizontally */
-  font-size: 3vw; /* Adjusted font-size for better responsiveness */
+  font-size: 1.6em; /* Adjusted font-size for better fit */
 }
 
-@media only screen and (max-width: 768px) {
-  .text {
-    font-size: 4vw; /* Adjust font-size for smaller screens */
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .text {
-    font-size: 5vw; /* Adjust font-size for even smaller screens */
-  }
+.space {
+  height: 50px; /* Adjusted height for better fit */
 }
 
 .text h1{
   font-family: cursive;
-  font-size: 5vw; /* Adjusted font-size for better responsiveness */
-}
-
-.space {
-  height: 10vh; /* Adjusted height for better responsiveness */
+  font-size: 2.5em; /* Adjusted font-size for better fit */
 }
