@@ -1,12 +1,11 @@
-
 * {
   transition: all 0.2s ease-in-out;
 }
 
 body {
   background: #DCE35B; 
-background: -webkit-linear-gradient(to right, #662D8C , #ED1E79); 
-background: linear-gradient(to right, #662D8C , #ED1E79); 
+  background: -webkit-linear-gradient(to right, #662D8C , #ED1E79); 
+  background: linear-gradient(to right, #662D8C , #ED1E79); 
   display: grid;
   place-items: center;
   height: 100vh;
@@ -61,8 +60,8 @@ img.birthday {
 .text {
   padding: 3em;
   text-align: left;
-  width: 40%;
-  font-size: 25px;
+  width: 80%; /* Adjusted width */
+  font-size: 18px; /* Adjusted font size */
 }
 .text h1{
   font-family:cursive;
@@ -71,5 +70,3 @@ img.birthday {
 .space {
   height: 100px;
 }
-
-
