@@ -15,10 +15,10 @@ body {
 
 .card {
   background: #12192c;
-  border-radius: 5vw; 
+  border-radius: 5vw; /* Adjusted for better responsiveness */
   height: 85vh;
   width: 80vw;
-  max-width: 900px; 
+  max-width: 900px; /* Added max-width for better responsiveness */
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   text-align: center;
   display: flex;
@@ -33,44 +33,44 @@ body {
 @media only screen and (min-width: 1000px) {
   .card {
     flex-direction: row-reverse;
-    height: 80vh; 
+    height: 80vh; /* Adjusted height for better responsiveness */
   }
   .card img.birthday {
     width: 40%;
-    max-width: 40vw; 
+    max-width: 40vw; /* Adjusted max-width for better responsiveness */
     max-height: unset;
-    border-radius: 5vw; 
+    border-radius: 5vw; /* Adjusted for better responsiveness */
   }
 }
 
 @media only screen and (max-height: 640px) {
   .card {
     flex-direction: row-reverse;
-    height: 80vh; 
+    height: 80vh; /* Adjusted height for better responsiveness */
   }
   .card img.birthday {
     width: 100%;
-    max-width: 80vw; 
+    max-width: 80vw; /* Adjusted max-width for better responsiveness */
     max-height: unset;
   }
 }
 
 img.birthday {
   max-height: 40vh;
-  border-radius: 5vw; 
+  border-radius: 5vw; /* Adjusted for better responsiveness */
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .text {
-  padding: 3vw; 
+  padding: 3vw; /* Adjusted padding for better responsiveness */
   text-align: left;
-  width: 80%; 
-  font-size: 3vw; 
+  width: 80%; /* Adjusted width for better responsiveness */
+  font-size: 3vw; /* Adjusted font-size for better responsiveness */
 }
 .text h1{
   font-family: cursive;
-  font-size: 5vw;
+  font-size: 5vw; /* Adjusted font-size for better responsiveness */
 }
 .space {
-  height: 10vh; 
+  height: 10vh; /* Adjusted height for better responsiveness */
 }
