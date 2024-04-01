@@ -58,10 +58,10 @@ img.birthday {
 }
 
 .text {
-  padding: 3em;
+  padding: 1em;
   text-align: left;
-  width: 80%; /* Adjusted width */
-  font-size: 18px; /* Adjusted font size */
+  width: 90%; /* Adjusted width */
+  font-size: 16px; /* Adjusted font size */
 }
 .text h1{
   font-family:cursive;
