@@ -63,14 +63,29 @@ img.birthday {
 
 .text {
   padding: 3vw; /* Adjusted padding for better responsiveness */
-  text-align: left;
-  width: 80%; /* Adjusted width for better responsiveness */
+  text-align: center; /* Center align the text */
+  max-width: 800px; /* Limit the maximum width of the text */
+  margin: auto; /* Center the text horizontally */
   font-size: 3vw; /* Adjusted font-size for better responsiveness */
 }
+
+@media only screen and (max-width: 768px) {
+  .text {
+    font-size: 4vw; /* Adjust font-size for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .text {
+    font-size: 5vw; /* Adjust font-size for even smaller screens */
+  }
+}
+
 .text h1{
   font-family: cursive;
   font-size: 5vw; /* Adjusted font-size for better responsiveness */
 }
+
 .space {
   height: 10vh; /* Adjusted height for better responsiveness */
 }
